@@ -5,10 +5,10 @@ body{
   background-color: #000;
 }
 .sony img{
-  width: 12%;
+  width: 70px;
   padding: 10px;
 }
-.access{
+.my_btn{
   border-radius: 20px;
 }
 .nav-item img{
@@ -17,4 +17,21 @@ body{
 .my_chevron{
   font-size: 10px;
   margin-left: 5px;
+}
+.jumbotron{
+  background-image: url( ../img/jumbo-bg.png);
+  background-position: center top;
+  padding: 300px 0 50px 0;
+}
+.returnal-text{
+  width: 60%;
+}
+.my_thumb img{
+  width: 100%;
+}
+.my_rounded{
+  border-radius: 15px;
+}
+.active{
+  padding: 2px;
 }
