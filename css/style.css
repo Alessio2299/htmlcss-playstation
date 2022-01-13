@@ -35,3 +35,9 @@ body{
 .active{
   padding: 2px;
 }
+.my_fs{
+  font-size: 18px;
+}
+.my_thumb80 img{
+  width: 80%;
+}
