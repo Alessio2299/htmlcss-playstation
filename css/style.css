@@ -46,3 +46,9 @@ body{
   background-position: center;
   background-size: cover;
 }
+.new-releases{
+  background-color: rgb(31, 31, 31);
+}
+.new-releases .my_thumb img{
+  margin-bottom: 10px;
+}
