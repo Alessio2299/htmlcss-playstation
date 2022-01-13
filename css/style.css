@@ -23,7 +23,7 @@ body{
   background-position: center top;
   padding: 300px 0 50px 0;
 }
-.returnal-text{
+.container-text{
   width: 60%;
 }
 .my_thumb img{
@@ -40,4 +40,9 @@ body{
 }
 .my_thumb80 img{
   width: 80%;
+}
+.it-takes-two{
+  background-image: url( ../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;
 }
