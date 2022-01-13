@@ -58,3 +58,16 @@ body{
 .ps-now{
   background-color: rgb(22, 28, 59);
 }
+footer{
+  background-color: rgb(1, 67, 156);
+}
+.small{
+  width: 20px;
+}
+.md-img{
+  width: 100px;
+}
+footer ul li{
+  line-height: 20px;
+  margin-top: 5px;
+}
