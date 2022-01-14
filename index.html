@@ -11,7 +11,7 @@
     <title>Playstation</title>
   </head>
   <body>
-    <header>
+    <header class="sticky-top">
       <div class="sony text-end">
        <img src="./img/sony_logo.svg" alt="Logo Sony">
       </div>
@@ -23,62 +23,83 @@
           </button>
           <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi<i class="my_chevron fas fa-chevron-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi<i class="my_chevron rotate fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu my_dropdown-menu text-center pb-3" aria-labelledby="navbarDropdownMenuLink">
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS5</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS4</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS VR</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS Plus</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS Now</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>Compra giochi</span></a></li>
+                  <li class="linee"></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Indie</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Titoli per PS4 su PS5</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Free to Play</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Promozioni e offerte</span></a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item">
                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware<i class="my_chevron fas fa-chevron-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul class="dropdown-menu my_dropdown-menu text-center pb-3" aria-labelledby="navbarDropdownMenuLink">
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS5</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS4</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS4 PRO</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS VR</span></a></li>
+                  <li class="linee"></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Controller wireless DualSense</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Cuffie con microfono Pulse 3D</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Accessori per PS5</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Controller wireless DUALSHOCK 4</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Accessori per PS4</span></a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item">
                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servizi<i class="my_chevron fas fa-chevron-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul class="dropdown-menu my_dropdown-menu text-center pb-3" aria-labelledby="navbarDropdownMenuLink">
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS Plus</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS4 Now</span></a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item">
                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Novità<i class="my_chevron fas fa-chevron-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul class="dropdown-menu my_dropdown-menu text-center pb-3" aria-labelledby="navbarDropdownMenuLink">
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS Blog</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>Questo mese su PS</span></a></li>
+                  <li class="linee"></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Intrattenimento per PS5</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2"> Intrattenimento per PS4</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Gamer Board</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Accessibilità</span></a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item">
                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fai acquisti<i class="my_chevron fas fa-chevron-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul class="dropdown-menu my_dropdown-menu text-center pb-3" aria-labelledby="navbarDropdownMenuLink">
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>Digital Games</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>PS Gear</span></a></li>
+                  <li class="linee"></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Acquista giochi per PS5</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Acquista giochi per PS4</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Acquista PlayStation Plus</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Acquista PS4</span></a></li>
+                  <li class="blue-hover d-inline-block me-4"><a class="text-decoration-none" href="#"><i class="fas fa-circle"></i><span class="d-inline-block align-middle ps-2">Acquista PS VR</span></a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item">
                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Supporto<i class="my_chevron fas fa-chevron-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul class="dropdown-menu my_dropdown-menu text-center pb-3" aria-labelledby="navbarDropdownMenuLink">
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>Supporto</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>Stao del PSN</span></a></li>
                 </ul>
               </li>
             </ul>
             <ul class="navbar-nav align-items-center">
-              <li class="nav-item dropdown">
+              <li class="nav-item">
                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Playstation<i class="my_chevron fas fa-chevron-down"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul class="dropdown-menu my_dropdown-menu text-center pb-3" aria-labelledby="navbarDropdownMenuLink">
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>Account</span></a></li>
+                  <li class="select-hover d-inline-block px-4 py-2"><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt="PS5"><span>Impostazioni</span></a></li>
                 </ul>
               </li>
               <li class="nav-item ms-2"><a href="#"><button type="button" class="my_btn btn btn-secondary">Accedi</button></a></li>
@@ -324,7 +345,7 @@
       </section>
     </main>
     <footer>
-      <div class="container-fluid text-white ms-3">
+      <div class="container-fluid text-white ps-3">
         <div class="row row-cols-1 row-cols-lg-2 pt-5">
           <div class="col mb-4">
             <img class="d-block pb-4" src="./img/ps-footer.svg" alt="Logo PlayStation">
