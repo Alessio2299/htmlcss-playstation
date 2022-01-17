@@ -1,6 +1,8 @@
+/* Common Command */
 body{
   font-family: sst,helvetica,arial,sans-serif;
 }
+/* Start Header */
 .sony{
   background-color: #000;
 }
@@ -52,8 +54,14 @@ body{
   width: 100%;
   height: 1px;
   background-color: gray;
-
 }
+.btn-secondary:hover{
+  border: 1px solid #fff;
+  box-shadow: 0 0 0 1px #6c757d;
+}
+/* End Header */
+
+/* Stat Main */
 .jumbotron{
   background-image: url( ../img/jumbo-bg.png);
   background-position: center;
@@ -98,21 +106,11 @@ body{
 .ps-now{
   background-color: rgb(22, 28, 59);
 }
-footer{
-  background-color: rgb(1, 67, 156);
-}
-.small{
-  width: 20px;
-}
-.md-img{
-  width: 100px;
-}
-footer ul li{
-  line-height: 20px;
-  margin-top: 5px;
-}
 .my_opacity{
   opacity: 60%;
+}
+.my_border{
+  border-bottom: 2px solid white;
 }
 .my_opacity:hover{
   opacity: 100%;
@@ -127,3 +125,37 @@ footer ul li{
   border-radius: 17px;
   padding: 1px;
 }
+.btn-danger:hover{
+  border: 1px solid #000;
+  box-shadow: 0 0 0 1px #dc3545;
+}
+
+.btn-primary:hover{
+  border: 1px solid #fff;
+  box-shadow: 0 0 0 1px #0d6efd;
+}
+.ps-plus .btn-light:hover{
+  border: 1px solid rgb(190, 187, 188);
+  box-shadow: 0 0 0 1px #f8f9fa; 
+}
+.ps-now .btn-light:hover{
+  border: 1px solid rgb(22, 28, 59);
+  box-shadow: 0 0 0 1px #f8f9fa; 
+}
+/* End Main */
+
+/* Start Footer */
+footer{
+  background-color: rgb(1, 67, 156);
+}
+footer ul li{
+  line-height: 20px;
+  margin-top: 5px;
+}
+.small{
+  width: 20px;
+}
+.md-img{
+  width: 100px;
+}
+/* End Footer */
